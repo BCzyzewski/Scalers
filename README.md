@@ -24,3 +24,8 @@ The input data was:
 
 ### Different methods explained
 
+All of the methods used in visualization will be biefly explained below.
+
+##### Standard Scaler
+
+$xscaled=(x-y)/c$

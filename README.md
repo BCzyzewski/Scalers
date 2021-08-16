@@ -1,6 +1,6 @@
 # Visualizing different Scalers available in Scikit-Learn and their effect on input data
 
-### Why you should be using scalers in Machine Learning problems?
+### Why should you be using scalers in Machine Learning problems?
 
 Scaling is one of the most crucial steps in Machine Learning. Most of the algorithms used in ML see highest ranging feature as more significant. Those features can dominate the whole model and influence it more than they should. So if a dataset contains a variety of features with different ranges scaling them to similar range is crucial.
 
@@ -14,3 +14,13 @@ This question was an inspiration to create this project. In the visualization be
 <img src="Scaling Visualization - Result.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" /> </center>
+
+The input data was:
+
+<li>
+<ol>Poisson distribution of 1000 samples with lambda of: 1</ol>
+<ol>Normal distribution of 1000 sample with mean of 1.22 and standard deviation of 1</ol>
+</li>
+
+### Different methods explained
+

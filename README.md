@@ -17,10 +17,10 @@ This question was an inspiration to create this project. In the visualization be
 
 The input data was:
 
-<li>
-<ol>Poisson distribution of 1000 samples with lambda of: 1</ol>
-<ol>Normal distribution of 1000 sample with mean of 1.22 and standard deviation of 1</ol>
-</li>
+<ol>
+<li>Poisson distribution of 1000 samples with lambda of: 1</li>
+<li>Normal distribution of 1000 sample with mean of 1.22 and standard deviation of 1</li>
+</ol>
 
 ### Different methods explained
 

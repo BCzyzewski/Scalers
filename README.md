@@ -26,6 +26,8 @@ The input data was:
 
 All of the methods used in visualization will be biefly explained below.
 
-##### Standard Scaler
+#### Standard Scaler
 
-$xscaled=(x-y)/c$
+The most popular method of scaling implemented in scickit-learn.
+
+![equation](http://www.sciweavers.org/tex2img.php?eq=x%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)

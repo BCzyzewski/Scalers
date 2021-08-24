@@ -30,8 +30,8 @@ All of the methods used in visualization will be biefly explained below.
 
 The most popular method of scaling implemented in scikit-learn. It assumes that the data is normally distributied within each feature. Standarization comes by <b>subtracting the mean </b> and then <b>dividing by standard diviation </b> of every feature in a datset.
 
-<MATH>&int;_a_^b^{f(x)<over>1+x} dx</MATH>
-
 This results in a dataset where every featre has a mean of 0 and standard deviation/variance of 1. About 68% of the values will lie between -1 and 1.
+
+
 
 

@@ -30,8 +30,9 @@ All of the methods used in visualization will be biefly explained below.
 
 The most popular method of scaling implemented in scikit-learn. It assumes that the data is normally distributied within each feature. Standarization comes by <b>subtracting the mean </b> and then <b>dividing by standard diviation </b> of every feature in a datset.
 
-This can be achieved by using the following equation. 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%20x_%7Bnew%7D%20%3D%20%20%5Cfrac%7Bx%20-%20%20%5Cmu%20%7D%7B%20%5Csigma%20%7D%20%20&bc=Transparent&fc=Black&im=png&fs=12&ff=modern&edit=0" align="center" border="0" alt=" x_{new} =  \frac{x -  \mu }{ \sigma }  " width="99" height="35" />
+This can be achieved by using the following equation:
+ 
+<center><img src="eqn.png"/></center>
 
 This results in a dataset where every featre has a mean of 0 and standard deviation/variance of 1. About 68% of the values will lie between -1 and 1.
 

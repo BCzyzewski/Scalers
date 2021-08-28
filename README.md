@@ -38,6 +38,23 @@ This scaler transforms the data to a given range. For each value in a column, Mi
 
 It is important to note that MinMax works well with data that is <b>not Gaussian</b>, but it is very sensitive to outliers.
 
+#### Robust Scaler
+
+Robust Scaler should be used with data that <b>contains many outliers</b> as this one is "robust" to values that differ greatly from to the median. This scalers transforms the features by subtracting the median and then dividing by the interquertile range (75% value - 25% value). By doing this that way, the outliers do not influence the scaling process.
+
+This method should be used instead of MinMax Scaler when we know that outliers are present in the data. The range of values after applying this scaler will be much greater then after using MinMax.
+
+#### Max Abs Scaler
+
+Each feature is scaled by its maximum absolute value. <b>Maximum value of each featureis set to 1</b>, after appying this scaler. Similar to MinMax this scaler can suffer the the data has outliers.
+
+Using this scaler does not seft the data, and thus does not destroy any sparsity.
+
+#### Power Transformer Scaler
+
+Power Transformer is applied to make data more <b>"Gaussian"</b>. This is very usefull in situations when normality is requiered. The power transform finds the optimal scaling factor in stabilizing variance and minimizing skewness through maximum likelihood estimation. Currently, Sklearn implementation of PowerTransformer supports the Box-Cox transform and the Yeo-Johnson transform.
+
+
 
 
 

@@ -30,11 +30,13 @@ All of the methods used in visualization will be biefly explained below.
 
 The most popular method of scaling implemented in scikit-learn. It assumes that the data is normally distributied within each feature. Standarization comes by <b>subtracting the mean </b> and then <b>dividing by standard diviation </b> of every feature in a datset.
 
-This can be achieved by using the following equation:
- 
-<center><img src="eqn.png"/></center>
-
 This results in a dataset where every featre has a mean of 0 and standard deviation/variance of 1. About 68% of the values will lie between -1 and 1.
+
+#### MinMax Scaler
+
+This scaler transforms the data to a given range. For each value in a column, MinMax <b>subtracs the minimum value</b> in the feature and then <b>divides by the range between the original maximum and original minimum.</b> Those operations preserve the shape of the original distribution.
+
+It is important to note that MinMax works well with data that is <b>not Gaussian</b>, but it is very sensitive to outliers.
 
 
 
